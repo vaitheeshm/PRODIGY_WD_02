@@ -1,0 +1,54 @@
+/* Project Done By Vaitheesh Murugavel (LinkedIn) */
+/* Project Done By vaitheeshm (GitHub)  */
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    font-family: "Oswald", sans-serif;
+    text-align: center;
+}
+
+.stopwatch {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.circle{
+    /* border: 2px solid blue; */
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(51, 100%, 56%);
+    color: black;
+}
+
+#display {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 25px 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: gold;
+    color: black;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+button:hover {
+    background-color: goldenrod;
+}
+#startStopBtn,#resetBtn{
+    font-family: "oswald",sans-serif;
+    font-size: 20px;
+}
